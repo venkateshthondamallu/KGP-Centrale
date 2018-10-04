@@ -1,0 +1,142 @@
+body
+{
+   margin :0;
+   padding :0;
+   background : hsla(75, 0%, 94%, 0.937);
+   font-size :16px;
+   color :rgb(119, 119, 119);
+   font-family: sans-serif;
+   font-weight: 300;
+}
+#login-box
+{
+position :absolute;
+ margin :5% auto;
+ height : 400px ;
+ width :600px;
+ background: #fff;
+ box-shadow: 0 2px 4px rgb(119, 119, 119)
+}
+ .left-box
+{
+position: absolute;
+top : 60px;
+left : 320px;
+box-sizing: border-box;
+padding : 40px;
+width :300px;
+height: 400px;
+background-image : url(KGP.PNG);
+background-size:cover;
+background-position: center;
+
+}
+h1
+{
+margin : 0 0 20px 0;
+font-weight :bolder;
+font-size: 28px;
+
+}
+input[type = "text"]
+input[type = "password"]
+{
+display: block;
+box-sizing: border-box;
+margin-bottom: 20px;
+padding : 4px;
+width : 220px;
+height :32px;
+border :none;
+outline: none;
+border-bottom: 1px solid #aaa;
+font-family: sans-serif;
+font-weight :400;
+font-size: 15px;
+transition : 0.2s ease ;
+}
+input[type = "submit"]
+{
+margin-bottom:28px ;
+width: 120px;
+height: 32px;
+background : #f44336 ;
+border:none;
+border-radius:2px ;
+coclor : #fff;
+font-family: sans-serif;
+font-weight: 400;
+text-transform: uppercase;
+transition : 0.2s ease;
+cursor: pointer;
+}
+input[type = "submit"]: hover,
+input[type = "submit"]:focus
+{
+background: #ff5722;
+transition: 0.2s  ease;
+}
+.right-box
+{
+position:absolute;
+top: 60px;
+right: 446px;
+box-sizing: border-box;
+padding : 20px;
+width :300px;
+height :400px;
+background-image: url(KGP.PNG);
+background-size: cover;
+background-position: center;
+
+}
+.or
+{
+position: absolute;
+top:180px;
+left :600px;
+width :40px;
+height :40px;
+background :#efefef;
+border-radius: 50%;
+box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+line-height: 40px;
+text-align: center;
+
+}
+.right-box .signinwith
+{
+display:inline-block;
+margin-bottom: 40px;
+font-size: 28px;
+color:#f44336;
+text-align: center;
+text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+
+}
+button.social
+{
+magin-bottom:20px;
+width :220px;
+height :36px;
+border :none;
+border-radius: 2px;
+color :#fff;
+font-family: sans-serif;
+font-weight: 500;
+transition :0.2s ease;
+cursor :pointer;
+}
+.facebook
+{
+background :#32508e;
+}
+.twitter
+{
+    background :#55acee;
+}
+.instagram
+{
+    background :#f74321;
+
+}
